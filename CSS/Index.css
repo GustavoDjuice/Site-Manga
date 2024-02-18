@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'RBlack';
+    src: url(../FONT/Roboto/Roboto-Black.ttf);
+}
+
+body{
+    background-color: #DAE3E6;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.box{
+    ul{
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    li{
+        background-color: #3A3B3C;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        align-items: center;
+        transition: 300ms ease-in-out;
+        font-family: RBlack;
+        color: white;
+    }
+    li:hover{
+        transform: scale(105%);
+    }
+    padding: 40px;
+    background-color: #FFF;
+    margin: 0;
+}
+
